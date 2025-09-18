@@ -1,0 +1,47 @@
+"Kumsal Duşakabin isimli duşakabin firması için çok modern, profesyonel ve tamamen frontend tabanlı bir web sitesi tasarla.
+
+Veritabanı veya backend entegrasyonu olmasın, sadece HTML, CSS ve modern frontend teknolojileri kullanılsın.
+
+Ana sayfada büyük bir başlıkta 'Kumsal Duşakabin – Kaliteyi Banyonuza Taşıyoruz' yazsın.
+
+Ana sayfada iletişim bilgileri (telefon, WhatsApp butonu, e-posta) görünür şekilde yer alsın.
+
+Ürünler sayfasında farklı duşakabin modelleri (köşe duşakabin, sürgülü sistem, oval kabin, cam kabin) görsellerle listelensin.
+
+Hakkımızda bölümünde firmanın güvenilir, deneyimli ve müşteri memnuniyetine önem veren bir marka olduğu vurgulansın.
+
+İletişim sayfasında telefon, WhatsApp butonu, e-posta ve basit bir iletişim formu bulunsun (form sadece görsel amaçlı, backend bağlantısı olmasın).
+
+Tasarım çok modern, temiz, minimalist ve kullanıcı dostu olsun.
+
+Renk paleti: beyaz, mavi ve gri tonları.
+
+Mobil uyumlu, hızlı ve şık animasyonlara sahip olsun.
+
+SEO Optimizasyonu:
+
+'Duşakabin' ve 'Ankara' kelimeleri site genelinde en önemli SEO anahtar kelimeleri olarak öne çıksın.
+
+Başlıklar (H1, H2, H3), meta description, alt etiketler ve içeriklerde 'Ankara duşakabin', 'modern duşakabin', 'Ankara duşakabin fiyatları', 'Kumsal Duşakabin Ankara' gibi SEO uyumlu anahtar kelimeler kullanılsın.
+
+Sayfa yapısı SEO dostu ve hızlı yüklenecek şekilde düzenlensin.
+
+Google, Bing ve diğer arama motorlarında üst sıralara çıkacak şekilde en güncel SEO teknikleri kullanılsın.
+
+Ayrıca bu web sitesinde kullanılmak üzere Kumsal Duşakabin markası için özel 3D duşakabin çalışmaları üret:
+
+Gerçekçi 3D modeller olsun.
+
+Şeffaf temperli cam paneller ve krom/metal çerçeveler içerilsin.
+
+Kayar kapılı, köşe tipi ve oval kabin gibi farklı tasarım çeşitleri yer alsın.
+
+Ortam modern, ferah ve temiz bir banyo gibi görünsün.
+
+Işıklandırma cam ve metal üzerindeki yansımaları öne çıkarsın.
+
+Tasarımlar profesyonel, şık ve dayanıklı hissettirsin.
+
+Cam panellerin bir köşesinde 'Kumsal Duşakabin' markası zarif şekilde yer alsın.
+
+Renderler yüksek çözünürlüklü ve katalog ile web sitesi için uygun olsun."
