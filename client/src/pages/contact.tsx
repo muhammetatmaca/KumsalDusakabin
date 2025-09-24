@@ -1,12 +1,12 @@
 import { useState } from "react";
-import SEOHead from "@/components/seo/seo-head";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import SEOHead from "@/components/seo/seo-head.js";
+import { Button } from "@/components/ui/button.js";
+import { Input } from "@/components/ui/input.js";
+import { Textarea } from "@/components/ui/textarea.js";
+import { Label } from "@/components/ui/label.js";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select.js";
 import { Phone, Mail, MapPin, Clock, Send } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
+import { useToast } from "@/hooks/use-toast.js";
 
 export default function Contact() {
   const { toast } = useToast();
@@ -52,9 +52,9 @@ export default function Contact() {
   return (
     <div className="pt-16">
       <SEOHead
-        title="İletişim - Kumsal Duşakabin | Ankara Duşakabin İletişim Bilgileri"
-        description="Ankara duşakabin ihtiyacınız için Kumsal Duşakabin ile iletişime geçin. Ücretsiz keşif ve fiyat teklifi. Tel: 0555 123 45 67"
-        keywords="Ankara duşakabin iletişim, duşakabin telefon, Kumsal Duşakabin iletişim, duşakabin fiyat teklifi"
+        title="İletişim - Eflal Duşakabin | Ankara Duşakabin İletişim Bilgileri"
+        description="Ankara duşakabin ihtiyacınız için Eflal Duşakabin ile iletişime geçin. Ücretsiz keşif ve fiyat teklifi. Tel: 0538 303 40 28"
+        keywords="Ankara duşakabin iletişim, duşakabin telefon, Eflal Duşakabin iletişim, duşakabin fiyat teklifi"
       />
 
       {/* Hero Section */}
@@ -83,9 +83,9 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Telefon</h3>
-                    <p className="text-muted-foreground">0555 123 45 67</p>
+                    <p className="text-muted-foreground">0538 303 40 28</p>
                     <a 
-                      href="tel:+905551234567" 
+                      href="tel:+905383034028" 
                       className="text-primary hover:underline text-sm"
                       data-testid="link-phone-contact"
                     >
@@ -102,9 +102,9 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">WhatsApp</h3>
-                    <p className="text-muted-foreground">0555 123 45 67</p>
+                    <p className="text-muted-foreground">0538 303 40 28</p>
                     <a 
-                      href="https://wa.me/905551234567" 
+                      href="https://wa.me/905383034028" 
                       className="text-primary hover:underline text-sm"
                       data-testid="link-whatsapp-contact"
                     >
@@ -119,9 +119,9 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">E-posta</h3>
-                    <p className="text-muted-foreground">info@kumsalduskabin.com</p>
+                    <p className="text-muted-foreground">info@eflalduskabin.com</p>
                     <a 
-                      href="mailto:info@kumsalduskabin.com" 
+                      href="mailto:info@eflalduskabin.com" 
                       className="text-primary hover:underline text-sm"
                       data-testid="link-email-contact"
                     >
@@ -185,7 +185,7 @@ export default function Contact() {
                     <Input
                       id="phone"
                       type="tel"
-                      placeholder="0555 123 45 67"
+                      placeholder="0538 303 40 28"
                       value={formData.phone}
                       onChange={(e) => handleInputChange('phone', e.target.value)}
                       required

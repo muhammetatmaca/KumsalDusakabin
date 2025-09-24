@@ -8,7 +8,7 @@ export default function AboutSection() {
           <div>
             <img 
               src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Kumsal Duşakabin ekibi" 
+              alt="Eflal Duşakabin ekibi" 
               className="rounded-2xl shadow-xl w-full h-auto"
             />
           </div>
@@ -16,7 +16,7 @@ export default function AboutSection() {
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-6">Hakkımızda</h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Kumsal Duşakabin olarak, 2018 yılından bu yana Ankara'da duşakabin sektöründe faaliyet göstermekteyiz. Müşteri memnuniyetini her şeyin üstünde tutan anlayışımızla, kaliteli ürünler ve profesyonel hizmet sunmaktayız.
+              Eflal Duşakabin olarak, 2018 yılından bu yana Ankara'da duşakabin sektöründe faaliyet göstermekteyiz. Müşteri memnuniyetini her şeyin üstünde tutan anlayışımızla, kaliteli ürünler ve profesyonel hizmet sunmaktayız.
             </p>
             
             <div className="space-y-4 mb-8">

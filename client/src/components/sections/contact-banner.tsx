@@ -10,13 +10,13 @@ export default function ContactBanner() {
             <p className="text-sm text-muted-foreground">Ücretsiz keşif ve fiyat teklifi için</p>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <a href="tel:+905551234567" className="flex items-center space-x-2 text-primary font-semibold" data-testid="link-phone-banner">
+            <a href="tel:+905383034028" className="flex items-center space-x-2 text-primary font-semibold" data-testid="link-phone-banner">
               <Phone className="h-4 w-4" />
-              <span>0555 123 45 67</span>
+              <span>0538 303 40 28</span>
             </a>
-            <a href="mailto:info@kumsalduskabin.com" className="flex items-center space-x-2 text-primary font-semibold" data-testid="link-email-banner">
+            <a href="mailto:info@eflalduskabin.com" className="flex items-center space-x-2 text-primary font-semibold" data-testid="link-email-banner">
               <Mail className="h-4 w-4" />
-              <span>info@kumsalduskabin.com</span>
+              <span>info@eflalduskabin.com</span>
             </a>
           </div>
         </div>

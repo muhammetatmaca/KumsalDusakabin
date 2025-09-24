@@ -41,7 +41,7 @@ export default function Products() {
   return (
     <div className="pt-16">
       <SEOHead
-        title="Duşakabin Modelleri - Ankara | Kumsal Duşakabin Ürünleri"
+        title="Duşakabin Modelleri - Ankara | Eflal Duşakabin Ürünleri"
         description="Köşe duşakabin, sürgülü sistem, oval kabin ve premium cam kabin modelleri. Ankara'nın en kaliteli duşakabin çeşitleri uygun fiyatlarla."
         keywords="köşe duşakabin, sürgülü duşakabin, oval kabin, cam kabin, Ankara duşakabin modelleri, duşakabin çeşitleri"
       />

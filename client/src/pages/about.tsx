@@ -1,13 +1,13 @@
-import SEOHead from "@/components/seo/seo-head";
+import SEOHead from "@/components/seo/seo-head.js";
 import { CheckCircle } from "lucide-react";
 
 export default function About() {
   return (
     <div className="pt-16">
       <SEOHead
-        title="Hakkımızda - Kumsal Duşakabin | Ankara'nın Güvenilir Duşakabin Markası"
-        description="2018'den beri Ankara'da duşakabin sektöründe faaliyet gösteren Kumsal Duşakabin. Güvenilir, deneyimli ve müşteri memnuniyetine odaklı hizmet anlayışımız."
-        keywords="Kumsal Duşakabin hakkında, Ankara duşakabin firması, güvenilir duşakabin markası, deneyimli duşakabin ekibi"
+        title="Hakkımızda - Eflal Duşakabin | Ankara'nın Güvenilir Duşakabin Markası"
+        description="2018'den beri Ankara'da duşakabin sektöründe faaliyet gösteren Eflal Duşakabin. Güvenilir, deneyimli ve müşteri memnuniyetine odaklı hizmet anlayışımız."
+        keywords="Eflal Duşakabin hakkında, Ankara duşakabin firması, güvenilir duşakabin markası, deneyimli duşakabin ekibi"
       />
 
       {/* Hero Section */}
@@ -30,7 +30,7 @@ export default function About() {
             <div>
               <img 
                 src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-                alt="Kumsal Duşakabin ekibi" 
+                alt="Eflal Duşakabin ekibi" 
                 className="rounded-2xl shadow-xl w-full h-auto"
               />
             </div>
@@ -40,7 +40,7 @@ export default function About() {
                 Kalite ve Güven Bizim Önceliğimiz
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Kumsal Duşakabin olarak, Ankara'da duşakabin sektöründe kendimizi kanıtlamış bir markayız. 
+                Eflal Duşakabin olarak, Ankara'da duşakabin sektöründe kendimizi kanıtlamış bir markayız. 
                 Her projede en yüksek kalite standartlarını uygulayarak, müşterilerimizin beklentilerini aştığımıza inanıyoruz.
               </p>
               
@@ -113,7 +113,7 @@ export default function About() {
               Değerlerimiz
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Kumsal Duşakabin'i tercih etmenizin nedenleri
+              Eflal Duşakabin'i tercih etmenizin nedenleri
             </p>
           </div>
           
@@ -201,7 +201,7 @@ export default function About() {
               Hikayemiz
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Kumsal Duşakabin'in bugünlere gelme hikayesi
+              Eflal Duşakabin'in bugünlere gelme hikayesi
             </p>
           </div>
           
@@ -214,7 +214,7 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold text-foreground mb-2">Kuruluş</h3>
                   <p className="text-muted-foreground">
-                    Kumsal Duşakabin, Ankara'da küçük bir atölye olarak duşakabin sektöründe faaliyete başladı. 
+                    Eflal Duşakabin, Ankara'da küçük bir atölye olarak duşakabin sektöründe faaliyete başladı. 
                     İlk günden itibaren kalite ve müşteri memnuniyeti odaklı çalışma prensibini benimsedik.
                   </p>
                 </div>

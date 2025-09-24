@@ -5,7 +5,7 @@ const testimonials = [
     name: "Mehmet K.",
     location: "Çankaya",
     rating: 5,
-    comment: "Banyomuzu yenileme kararı aldığımızda Kumsal Duşakabin'i tercih ettik. Hem ürün kalitesi hem de montaj hizmeti mükemmeldi. Teşekkürler!"
+    comment: "Banyomuzu yenileme kararı aldığımızda Eflal Duşakabin'i tercih ettik. Hem ürün kalitesi hem de montaj hizmeti mükemmeldi. Teşekkürler!"
   },
   {
     name: "Ayşe D.",

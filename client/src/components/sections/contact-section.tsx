@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Button } from "@/components/ui/button.js";
+import { Input } from "@/components/ui/input.js";
+import { Textarea } from "@/components/ui/textarea.js";
+import { Label } from "@/components/ui/label.js";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select.js";
 import { Phone, Mail, MapPin, Clock, Send } from "lucide-react";
 import { Link } from "wouter";
-import { useToast } from "@/hooks/use-toast";
+import { useToast } from "@/hooks/use-toast.js";
 
 export default function ContactSection() {
   const { toast } = useToast();
@@ -67,8 +67,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Telefon</h3>
-                  <p className="text-muted-foreground">0555 123 45 67</p>
-                  <a href="tel:+905551234567" className="text-primary hover:underline text-sm" data-testid="link-phone-contact-section">
+                  <p className="text-muted-foreground">0538 303 40 28</p>
+                  <a href="tel:+905383034028" className="text-primary hover:underline text-sm" data-testid="link-phone-contact-section">
                     Hemen Ara
                   </a>
                 </div>
@@ -82,8 +82,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">WhatsApp</h3>
-                  <p className="text-muted-foreground">0555 123 45 67</p>
-                  <a href="https://wa.me/905551234567" className="text-primary hover:underline text-sm" data-testid="link-whatsapp-contact-section">
+                  <p className="text-muted-foreground">0538 303 40 28</p>
+                  <a href="https://wa.me/905383034028" className="text-primary hover:underline text-sm" data-testid="link-whatsapp-contact-section">
                     WhatsApp ile Yaz
                   </a>
                 </div>
@@ -95,8 +95,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">E-posta</h3>
-                  <p className="text-muted-foreground">info@kumsalduskabin.com</p>
-                  <a href="mailto:info@kumsalduskabin.com" className="text-primary hover:underline text-sm" data-testid="link-email-contact-section">
+                  <p className="text-muted-foreground">info@eflalduskabin.com</p>
+                  <a href="mailto:info@eflalduskabin.com" className="text-primary hover:underline text-sm" data-testid="link-email-contact-section">
                     E-posta Gönder
                   </a>
                 </div>
@@ -153,7 +153,7 @@ export default function ContactSection() {
                   <Input
                     id="contact-phone"
                     type="tel"
-                    placeholder="0555 123 45 67"
+                    placeholder="0538 303 40 28"
                     value={formData.phone}
                     onChange={(e) => handleInputChange('phone', e.target.value)}
                     data-testid="input-contact-phone"

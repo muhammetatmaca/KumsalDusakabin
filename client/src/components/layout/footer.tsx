@@ -9,14 +9,14 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Bath className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold">Kumsal Duşakabin</span>
+              <span className="text-xl font-bold">Eflal Duşakabin</span>
             </div>
             <p className="text-primary-foreground/80 text-sm mb-4">
               Ankara'nın en güvenilir duşakabin markası. Kaliteyi banyonuza taşıyoruz.
             </p>
             <div className="flex space-x-3">
               <a
-                href="https://wa.me/905551234567"
+                href="https://wa.me/905383034028"
                 className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center hover:bg-primary/80 transition-colors"
                 data-testid="link-whatsapp-footer"
               >
@@ -25,14 +25,14 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="tel:+905551234567"
+                href="tel:+905383034028"
                 className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center hover:bg-primary/80 transition-colors"
                 data-testid="link-phone-footer"
               >
                 <Phone className="w-4 h-4" />
               </a>
               <a
-                href="mailto:info@kumsalduskabin.com"
+                href="mailto:info@eflalduskabin.com"
                 className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center hover:bg-primary/80 transition-colors"
                 data-testid="link-email-footer"
               >
@@ -82,11 +82,11 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>0555 123 45 67</span>
+                <span>0538 303 40 28</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>info@kumsalduskabin.com</span>
+                <span>info@eflalduskabin.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
@@ -99,7 +99,7 @@ export default function Footer() {
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-sm text-primary-foreground/60">
-            © 2024 Kumsal Duşakabin. Tüm hakları saklıdır. | Ankara Duşakabin | Modern Duşakabin Çözümleri
+            © 2024 eflal Duşakabin. Tüm hakları saklıdır. | Ankara Duşakabin | Modern Duşakabin Çözümleri
           </p>
         </div>
       </div>

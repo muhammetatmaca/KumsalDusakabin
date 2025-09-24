@@ -12,7 +12,7 @@ interface SEOHeadProps {
 export default function SEOHead({
   title,
   description,
-  keywords = "Ankara duşakabin, Çankaya duşakabin, Keçiören duşakabin, Yenimahalle duşakabin, Mamak duşakabin, Sincan duşakabin, Etimesgut duşakabin, Gölbaşı duşakabin, Pursaklar duşakabin, Altındağ duşakabin, Polatlı duşakabin, Elmadağ duşakabin, Kızılcahamam duşakabin, modern duşakabin, Ankara duşakabin fiyatları, Kumsal Duşakabin Ankara, köşe duşakabin, cam kabin, sürgülü duşakabin, oval kabin, temperli cam duşakabin, Ankara duşakabin montajı, duşakabin firması Ankara",
+  keywords = "Ankara duşakabin, Çankaya duşakabin, Keçiören duşakabin, Yenimahalle duşakabin, Mamak duşakabin, Sincan duşakabin, Etimesgut duşakabin, Gölbaşı duşakabin, Pursaklar duşakabin, Altındağ duşakabin, Polatlı duşakabin, Elmadağ duşakabin, Kızılcahamam duşakabin, modern duşakabin, Ankara duşakabin fiyatları, Eflal Duşakabin Ankara, köşe duşakabin, cam kabin, sürgülü duşakabin, oval kabin, temperli cam duşakabin, Ankara duşakabin montajı, duşakabin firması Ankara",
   ogTitle,
   ogDescription,
   ogImage = "https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=630"
@@ -61,10 +61,10 @@ export default function SEOHead({
     const structuredData = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Kumsal Duşakabin",
+      "name": "Eflal Duşakabin",
       "description": "Ankara'nın tüm ilçelerinde hizmet veren güvenilir duşakabin markası. Çankaya, Keçiören, Yenimahalle, Mamak, Sincan, Etimesgut, Gölbaşı, Pursaklar, Altındağ, Polatlı ve diğer tüm bölgelerde modern duşakabin, köşe duşakabin, sürgülü sistem ve cam kabin montaj hizmeti.",
-      "telephone": "+905551234567",
-      "email": "info@kumsalduskabin.com",
+      "telephone": "+905383034028",
+      "email": "info@eflalduskabin.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Ankara",
@@ -80,7 +80,7 @@ export default function SEOHead({
       "image": "https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=630",
       "url": window.location.origin,
       "sameAs": [
-        "https://wa.me/905551234567"
+        "https://wa.me/905383034028"
       ],
       "offers": {
         "@type": "Offer",
