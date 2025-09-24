@@ -71,10 +71,36 @@ export default function SEOHead({
         "addressCountry": "TR"
       },
       "areaServed": [
-        "Ankara", "Çankaya", "Keçiören", "Yenimahalle", "Mamak", "Sincan", 
-        "Etimesgut", "Gölbaşı", "Pursaklar", "Altındağ", "Polatlı", 
-        "Elmadağ", "Kızılcahamam", "Beypazarı", "Nallıhan", "Şereflikoçhisar"
-      ],
+  // Etimesgut
+  'Etimesgut', 'Eryaman', 'Elvankent', 'Bağlıca', 'Göksu', 'Ahi Mesut',
+  'Şehitali', 'Topçu Mahallesi', 'Saraycık',
+
+  // Sincan
+  'Sincan', 'Yenikent', 'Fatih', 'Temelli',
+
+  // Çankaya
+  'Çankaya', 'Kızılay', 'Dikmen', 'Oran', 'Yıldız', 'Bahçelievler', 'Emek',
+
+  // Keçiören
+  'Keçiören', 'Etlik', 'Ufuktepe', 'Şefkat', 'Aktepe', 'Ayvalı',
+
+  // Yenimahalle
+  'Yenimahalle', 'Batıkent', 'Demetevler', 'İvedik',
+
+  // Mamak
+  'Mamak', 'Natoyolu', 'Boğaziçi', 'Kutlu',
+
+  // Altındağ
+  'Altındağ', 'Ulus', 'Aydınlıkevler', 'Önder',
+
+  // Gölbaşı
+  'Gölbaşı', 'Beytepe', 'Hacılar',
+
+  // Diğer ilçeler
+  'Polatlı', 'Pursaklar', 'Çubuk', 'Kahramankazan', 'Bala', 
+  'Kızılcahamam', 'Beypazarı', 'Ayaş', 'Haymana', 
+  'Nallıhan', 'Şereflikoçhisar', 'Evren'
+],
       "serviceType": ["Duşakabin Montajı", "Temperli Cam Montajı", "Banyo Yenileme"],
       "priceRange": "$$",
       "image": "https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=630",

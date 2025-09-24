@@ -18,8 +18,8 @@ import foto13 from '@shared/kabinler/iceacılırkoyu.jpg';
 const products = [
   {
     id: "corner",
-    name: "Köşe Duşakabin ay-01",
-    description: "Köşe kullanımına özel tasarlanmış space-saving modeller. Compact banyolar için ideal çözüm.",
+    name: "Köşe Duşakabin (ay-01)",
+    description: "Köşe kullanımına özel tasarlanmış. Compact banyolar için ideal çözüm.",
     price: "2.500₺'den başlayan fiyatlar",
     image: foto1,
     features: [
@@ -28,10 +28,19 @@ const products = [
   "Paslanmaz çelik profil",
   "Sürgülü veya menteşeli kapı sistemi"
 ]
+  }
+  ,
+  {
+    id: "glass",
+    name: "(ay-68) Duvardan Duvara Duşakabin",
+    description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
+    price: "3.800₺'den başlayan fiyatlar",
+    image: foto11,
+    features: ["8mm temperli güvenlik camı", "Anti-kireç korumalı yüzey", "Krom kaplama aksesuarlar", "Nano teknoloji su itici"]
   },
   {
     id: "sliding",
-    name: "Köşe Duşakabin ay-01",
+    name: "Köşe Duşakabin (ay-01)",
     description: "Pratik kullanım için sürgülü kapı sistemleri. Geniş açılım alanı sağlar.",
     price: "3.200₺'den başlayan fiyatlar",
     image: foto2,
@@ -44,7 +53,7 @@ const products = [
   },
   {
     id: "oval",
-    name: "ay-03 altın katlanabilir",
+    name: "Altın Katlanabilir (ay-03)",
     description: "Estetik tasarım için oval ve kavisli modeller. Modern banyo dekorasyonu için mükemmel.",
     price: "4.000₺'den başlayan fiyatlar",
     image: foto3,
@@ -57,7 +66,7 @@ const products = [
   },
   {
     id: "glass",
-    name: "ay-03 katlanabilir",
+    name: "Katlanabilir (ay-03)",
     description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
     price: "3.800₺'den başlayan fiyatlar",
     image: foto4,
@@ -70,7 +79,7 @@ const products = [
   },
   {
     id: "glass",
-    name: "ay05 duşakabin",
+    name: "Duşakabin (ay-05)",
     description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
     price: "3.800₺'den başlayan fiyatlar",
     image: foto5,
@@ -78,7 +87,7 @@ const products = [
   },
   {
     id: "glass",
-    name: "ay-06 altın duşakabin",
+    name: "(ay-06) Altın Duşakabin",
     description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
     price: "3.800₺'den başlayan fiyatlar",
     image: foto6,
@@ -86,7 +95,7 @@ const products = [
   },
   {
     id: "glass",
-    name: "ay-06 duvardan duvara duşakabin",
+    name: "(ay-06) Duvardan Duvara Duşakabin",
     description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
     price: "3.800₺'den başlayan fiyatlar",
     image: foto7,
@@ -94,7 +103,7 @@ const products = [
   },
   {
     id: "glass",
-    name: "ay-07 duvaradan duvara duşakabin",
+    name: "(ay-07) Duvaradan Duvara Duşakabin",
     description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
     price: "3.800₺'den başlayan fiyatlar",
     image: foto8,
@@ -102,7 +111,7 @@ const products = [
   },
   {
     id: "glass",
-    name: "ay-09 duşakabin",
+    name: "(ay-09) Duşakabin",
     description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
     price: "3.800₺'den başlayan fiyatlar",
     image: foto10,
@@ -110,15 +119,7 @@ const products = [
   },
   {
     id: "glass",
-    name: "ay-68 duvardan duvara duşakabin",
-    description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
-    price: "3.800₺'den başlayan fiyatlar",
-    image: foto11,
-    features: ["8mm temperli güvenlik camı", "Anti-kireç korumalı yüzey", "Krom kaplama aksesuarlar", "Nano teknoloji su itici"]
-  },
-  {
-    id: "glass",
-    name: "ay-70 karısık çizgili duşakabin",
+    name: "(ay-70) Karısık Çizgili Duşakabin",
     description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
     price: "3.800₺'den başlayan fiyatlar",
     image: foto12,
@@ -126,7 +127,7 @@ const products = [
   },
   {
     id: "glass",
-    name: "ay-71 içe açılır koyu duşakabin",
+    name: "(ay-71) İçe Açılır Koyu Duşakabin",
     description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
     price: "3.800₺'den başlayan fiyatlar",
     image: foto13,
@@ -160,11 +161,12 @@ export default function Products() {
       {/* Products Grid */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product) => (
               <div
                 key={product.id}
-                className="bg-card rounded-xl shadow-lg border border-border hover-lift flex flex-col overflow-hidden"
+                className="bg-card rounded-xl shadow-lg border border-border hover-lift flex flex-col overflow-hidden
+                  lg:max-w-md lg:mx-auto lg:p-4"
               >
                 {/* Image */}
                 <div className="flex-1 flex items-center justify-center bg-gray-100 max-h-[300px] sm:max-h-none">
@@ -237,8 +239,8 @@ export default function Products() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-2">5 Yıl Garanti</h3>
-              <p className="text-muted-foreground">Tüm ürünlerimizde 5 yıl kapsamlı garanti süresi</p>
+              <h3 className="text-xl font-semibold text-foreground mb-2">CE Belgeli</h3>
+              <p className="text-muted-foreground">                      Sadece CE belgeli, temperli güvenlik camı ve paslanmaz çelik aksesuarlar kullanıyoruz. </p>
             </div>
 
             <div className="text-center p-6">
@@ -258,7 +260,7 @@ export default function Products() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">Premium Kalite</h3>
-              <p className="text-muted-foreground">CE belgeli temperli cam ve paslanmaz çelik aksesuarlar</p>
+              <p className="text-muted-foreground">CE belgili temperli cam ve paslanmaz çelik aksesuarlar</p>
             </div>
 
             <div className="text-center p-6">

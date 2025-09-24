@@ -1,15 +1,19 @@
 import { ArrowRight, Calculator, Sparkles, Star, Zap } from "lucide-react";
 import { Link } from "wouter";
+import foto1 from '@shared/kabinler/ay01.jpg';
+import foto4 from '@shared/kabinler/ay03katlanabilir.jpg';
+import foto5 from '@shared/kabinler/shopping (2).png';
+import foto6 from '@shared/kabinler/ay06altın.jpg';
 
 const products = [
   {
     id: "corner",
     name: "Köşe Duşakabin",
-    description: "Ankara'nın tüm ilçelerinde montajı yapılan köşe kullanımına özel space-saving modeller",
+    description: "Ankara'nın tüm ilçelerinde montajı yapılan köşe kullanımına özel",
     price: "2.500₺",
     priceText: "'den başlayan fiyatlar",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-    popular: false
+    image: foto1,
+    popular: true
   },
   {
     id: "sliding",
@@ -17,8 +21,8 @@ const products = [
     description: "Çankaya, Keçiören, Yenimahalle'de en çok tercih edilen sürgülü kapı sistemleri",
     price: "3.200₺",
     priceText: "'den başlayan fiyatlar",
-    image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-    popular: true
+    image: foto4,
+    popular: false
   },
   {
     id: "oval",
@@ -26,7 +30,7 @@ const products = [
     description: "Modern banyo tasarımları için estetik oval ve kavisli modeller",
     price: "4.000₺",
     priceText: "'den başlayan fiyatlar", 
-    image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
+    image: foto5,
     popular: false
   },
   {
@@ -35,7 +39,7 @@ const products = [
     description: "Temperli güvenlik camı ile maksimum şeffaflık ve güvenlik",
     price: "3.800₺",
     priceText: "'den başlayan fiyatlar",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
+    image: foto6,
     popular: false
   }
 ];
@@ -97,8 +101,6 @@ export default function ProductsSection() {
                 {/* Price and Action */}
                 <div className="flex items-center justify-between">
                   <div className="flex flex-col">
-                    <span className="text-2xl font-black gradient-text">{product.price}</span>
-                    <span className="text-xs text-muted-foreground">{product.priceText}</span>
                   </div>
                   <div className="w-12 h-12 rounded-full gradient-primary flex items-center justify-center group-hover:scale-110 transition-transform duration-300 neon-glow">
                     <ArrowRight className="h-5 w-5 text-white" />

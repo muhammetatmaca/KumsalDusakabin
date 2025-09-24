@@ -279,10 +279,36 @@ export default function Contact() {
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              'Çankaya', 'Keçiören', 'Yenimahalle', 'Mamak',
-              'Sincan', 'Etimesgut', 'Gölbaşı', 'Pursaklar',
-              'Altındağ', 'Polatlı', 'Elmadağ', 'Kızılcahamam'
-            ].map((area) => (
+  // Etimesgut
+  'Etimesgut', 'Eryaman', 'Elvankent', 'Bağlıca', 'Göksu', 'Ahi Mesut',
+  'Şehitali', 'Topçu Mahallesi', 'Saraycık',
+
+  // Sincan
+  'Sincan', 'Yenikent', 'Fatih', 'Temelli',
+
+  // Çankaya
+  'Çankaya', 'Kızılay', 'Dikmen', 'Oran', 'Yıldız', 'Bahçelievler', 'Emek',
+
+  // Keçiören
+  'Keçiören', 'Etlik', 'Ufuktepe', 'Şefkat', 'Aktepe', 'Ayvalı',
+
+  // Yenimahalle
+  'Yenimahalle', 'Batıkent', 'Demetevler', 'İvedik',
+
+  // Mamak
+  'Mamak', 'Natoyolu', 'Kutlu',
+
+  // Altındağ
+  'Altındağ', 'Ulus', 'Aydınlıkevler', 'Önder',
+
+  // Gölbaşı
+  'Gölbaşı', 'Beytepe', 'Hacılar',
+
+  // Diğer ilçeler
+  'Polatlı', 'Pursaklar', 'Çubuk', 'Kahramankazan', 'Bala', 
+  'Kızılcahamam', 'Beypazarı', 'Ayaş', 'Haymana', 
+  'Nallıhan', 'Şereflikoçhisar', 'Evren'
+].map((area) => (
               <div key={area} className="bg-card p-4 rounded-lg text-center border border-border">
                 <MapPin className="h-6 w-6 text-primary mx-auto mb-2" />
                 <span className="text-card-foreground font-medium">{area}</span>
