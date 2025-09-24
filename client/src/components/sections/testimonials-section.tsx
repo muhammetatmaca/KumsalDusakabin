@@ -17,7 +17,7 @@ const testimonials = [
     name: "Ali R.",
     location: "Yenimahalle",
     rating: 5,
-    comment: "Profesyonel yaklaşım, kaliteli malzeme ve hızlı montaj. 5 yıl garantisiyle de gönül rahatlığı içindeyim."
+    comment: "Profesyonel yaklaşım, kaliteli malzeme ve hızlı montaj.gönül rahatlığı içindeyim."
   }
 ];
 

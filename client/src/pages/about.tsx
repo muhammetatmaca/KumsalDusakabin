@@ -84,7 +84,6 @@ export default function About() {
                     <h4 className="font-semibold text-foreground">Kaliteli Ürünler</h4>
                     <p className="text-muted-foreground text-sm">
                       Sadece CE belgeli, temperli güvenlik camı ve paslanmaz çelik aksesuarlar kullanıyoruz. 
-                      Tüm ürünlerimiz 5 yıl garantilidir.
                     </p>
                   </div>
                 </div>

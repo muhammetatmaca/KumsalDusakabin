@@ -2,11 +2,6 @@ import { Shield, Wrench, Gem, Home, DollarSign, Headphones } from "lucide-react"
 
 const features = [
   {
-    icon: Shield,
-    title: "5 Yıl Garanti",
-    description: "Tüm ürünlerimizde 5 yıl kapsamlı garanti süresi"
-  },
-  {
     icon: Wrench,
     title: "Profesyonel Montaj",
     description: "Uzman ekibimizle hızlı ve kaliteli montaj hizmeti"
@@ -17,19 +12,9 @@ const features = [
     description: "CE belgeli temperli cam ve paslanmaz çelik aksesuarlar"
   },
   {
-    icon: Home,
-    title: "Ücretsiz Keşif",
-    description: "Ankara genelinde ücretsiz ölçüm ve keşif hizmeti"
-  },
-  {
     icon: DollarSign,
     title: "Uygun Fiyat",
     description: "Kaliteli ürünleri en uygun fiyatlarla sunuyoruz"
-  },
-  {
-    icon: Headphones,
-    title: "24/7 Destek",
-    description: "Satış sonrası sürekli müşteri destek hizmeti"
   }
 ];
 
@@ -38,7 +23,7 @@ export default function FeaturesSection() {
     <section className="py-20 bg-muted" data-testid="section-features">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Neden Kumsal Duşakabin?</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Neden Eflal Duşakabin?</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Ankara'da duşakabin konusunda tercih edilme nedenlerimiz</p>
         </div>
         

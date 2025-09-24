@@ -72,7 +72,6 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>Ücretsiz Keşif</li>
               <li>Profesyonel Montaj</li>
-              <li>5 Yıl Garanti</li>
               <li>24/7 Müşteri Desteği</li>
             </ul>
           </div>
@@ -92,7 +91,7 @@ export default function Footer() {
                 <MapPin className="h-4 w-4" />
                 <span>Ankara Geneli Hizmet</span>
               </li>
-              <li>🕒 Pazartesi-Cumartesi 08:00-18:00</li>
+              <li>🕒 Pazartesi-Cuma 08:00-18:00</li>
             </ul>
           </div>
         </div>

@@ -2,7 +2,7 @@
 
 Veritabanı veya backend entegrasyonu olmasın, sadece HTML, CSS ve modern frontend teknolojileri kullanılsın.
 
-Ana sayfada büyük bir başlıkta 'Eflal Duşakabin – Kaliteyi Banyonuza Taşıyoruz' yazsın.
+Ana sayfada büyük bir başlıkta 'Eflal  Duşakabin – Kaliteyi Banyonuza Taşıyoruz' yazsın.
 
 Ana sayfada iletişim bilgileri (telefon, WhatsApp butonu, e-posta) görünür şekilde yer alsın.
 

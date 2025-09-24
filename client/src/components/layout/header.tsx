@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Phone, Menu, X, Droplets, ChevronDown, Sparkles } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button.js";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet.js";
+import arkasibosIcon from '@shared/arkasibos.png';
 
 export default function Header() {
   const [location] = useLocation();
@@ -35,21 +36,29 @@ export default function Header() {
       <nav className="relative container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Modern Logo */}
-          <Link href="/" className="flex items-center space-x-3 group" data-testid="link-logo">
-            <div className="relative">
-              <div className="w-12 h-12 gradient-primary rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 neon-glow">
-                <Droplets className="h-6 w-6 text-white" />
-              </div>
-              <Sparkles className="absolute -top-1 -right-1 h-4 w-4 text-primary opacity-80 animate-pulse" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-2xl font-bold gradient-text">Kumsal</span>
-              <span className="text-xs text-muted-foreground font-medium tracking-widest">DUŞAKABIN</span>
-            </div>
-          </Link>
+          <Link
+      href="/"
+      className="inline-flex items-center space-x-3 group"
+      data-testid="link-logo"
+    >
+      <div className="relative">
+          <img
+            src={arkasibosIcon} 
+            alt="Duşakabin Icon"
+            className="h-[4rem]  object-contain"
+            style={{ filter: "brightness(0) invert(1)" }}
+          />
+      </div>
+      <div className="flex flex-col">
+        <span className="text-2xl font-bold gradient-text">Eflal</span>
+        <span className="text-xs text-muted-foreground font-medium tracking-widest">
+          DUŞAKABİN
+        </span>
+      </div>
+    </Link>
           
           {/* Navigation Menu */}
-          <div className="hidden lg:flex items-center space-x-12">
+          <div className="hidden lg:flex items-center space-x-12"> 
             {navigation.map((item, index) => (
               <Link
                 key={item.name}
@@ -76,17 +85,17 @@ export default function Header() {
           <div className="flex items-center space-x-4">
             {/* Phone Button */}
             <a
-              href="tel:+905551234567"
+              href="tel:+905383034028"
               className="hidden sm:flex items-center space-x-2 px-4 py-2 rounded-xl glassmorphism text-foreground hover:text-primary transition-all duration-300 group"
               data-testid="link-phone-header"
             >
               <Phone className="h-4 w-4 group-hover:animate-pulse" />
-              <span className="text-sm font-medium">0555 123 45 67</span>
+              <span className="text-sm font-medium">0538 303 40 28</span>
             </a>
 
             {/* WhatsApp Button */}
             <a
-              href="https://wa.me/905551234567"
+              href="https://wa.me/05383034028"
               className="hidden md:flex whatsapp-btn px-6 py-2.5 rounded-xl text-white font-medium text-sm"
               data-testid="link-whatsapp-header"
             >
@@ -115,7 +124,7 @@ export default function Header() {
                       <Droplets className="h-5 w-5 text-white" />
                     </div>
                     <div className="flex flex-col">
-                      <span className="text-lg font-bold gradient-text">Kumsal</span>
+                      <span className="text-lg font-bold gradient-text">Eflal</span>
                       <span className="text-xs text-muted-foreground">DUŞAKABIN</span>
                     </div>
                   </div>
@@ -140,15 +149,15 @@ export default function Header() {
                   
                   <div className="mt-8 space-y-4 pt-6 border-t border-white/10">
                     <a
-                      href="tel:+905551234567"
+                      href="tel:+905383034028"
                       className="flex items-center space-x-3 p-4 rounded-xl glassmorphism text-foreground hover:text-primary transition-colors"
                       data-testid="link-phone-mobile"
                     >
                       <Phone className="h-5 w-5" />
-                      <span className="font-medium">0555 123 45 67</span>
+                      <span className="font-medium">0538 303 40 28</span>
                     </a>
                     <a
-                      href="https://wa.me/905551234567"
+                      href="https://wa.me/905383034028"
                       className="whatsapp-btn flex items-center space-x-3 p-4 rounded-xl text-white font-medium"
                       data-testid="link-whatsapp-mobile"
                     >

@@ -79,7 +79,7 @@ export default function SEOHead({
       "priceRange": "$$",
       "image": "https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=630",
       "url": window.location.origin,
-      "sameAs": [
+      "sameAs": [ 
         "https://wa.me/905383034028"
       ],
       "offers": {

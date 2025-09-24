@@ -1,6 +1,6 @@
 # Overview
 
-This project is a Turkish shower cabin (duşakabin) business website for "Eflal Duşakabin", a company based in Ankara. It's a modern, professional web application built as a frontend-focused showcase that presents the company's products and services, contact information, and customer testimonials. The site is designed to be SEO-optimized for Turkish search terms related to shower cabins in Ankara, with a focus on generating leads through contact forms and WhatsApp integration.
+This project is a Turkish shower cabin (duşakabin) business website for "Eflal  Duşakabin", a company based in Ankara. It's a modern, professional web application built as a frontend-focused showcase that presents the company's products and services, contact information, and customer testimonials. The site is designed to be SEO-optimized for Turkish search terms related to shower cabins in Ankara, with a focus on generating leads through contact forms and WhatsApp integration.
 
 # User Preferences
 

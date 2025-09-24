@@ -2,7 +2,7 @@ export default function WhatsAppButton() {
   return (
     <div className="fixed bottom-6 right-6 z-50" data-testid="whatsapp-floating-button">
       <a
-        href="https://wa.me/905551234567"
+        href="https://wa.me/905383034028"
         className="whatsapp-btn w-14 h-14 rounded-full flex items-center justify-center text-white shadow-lg"
         data-testid="link-whatsapp-float"
       >

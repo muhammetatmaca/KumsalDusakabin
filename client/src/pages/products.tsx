@@ -1,40 +1,138 @@
 import SEOHead from "@/components/seo/seo-head";
 import { ArrowRight, Calculator } from "lucide-react";
 import { Link } from "wouter";
+import foto1 from '@shared/kabinler/ay01.jpg';
+import foto2 from '@shared/kabinler/ay01ornek.jpg';
+import foto3 from '@shared/kabinler/ay03altınkatlanabilir.jpg';
+import foto4 from '@shared/kabinler/ay03katlanabilir.jpg';
+import foto5 from '@shared/kabinler/ay05.jpg';
+import foto6 from '@shared/kabinler/ay06altın.jpg';
+import foto7 from '@shared/kabinler/ay06duvardanduvara.jpg';
+import foto8 from '@shared/kabinler/ay07duvaradanduvara.jpg';
+import foto10 from '@shared/kabinler/ay09.jpg';
+import foto11 from '@shared/kabinler/ay68duvardanduvara.jpg';
+import foto12 from '@shared/kabinler/aykarısıkcizgili.jpg';
+import foto13 from '@shared/kabinler/iceacılırkoyu.jpg';
+
 
 const products = [
   {
     id: "corner",
-    name: "Köşe Duşakabin",
+    name: "Köşe Duşakabin ay-01",
     description: "Köşe kullanımına özel tasarlanmış space-saving modeller. Compact banyolar için ideal çözüm.",
     price: "2.500₺'den başlayan fiyatlar",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-    features: ["90°x90° ve 80°x80° boyutları", "Temperli güvenlik camı", "Paslanmaz çelik profil", "Ayarlanabilir menteşe sistemi"]
+    image: foto1,
+    features: [
+  "90°x90° ve 80°x80° boyutları",
+  "Temperli güvenlik camı",
+  "Paslanmaz çelik profil",
+  "Sürgülü veya menteşeli kapı sistemi"
+]
   },
   {
     id: "sliding",
-    name: "Sürgülü Sistem",
+    name: "Köşe Duşakabin ay-01",
     description: "Pratik kullanım için sürgülü kapı sistemleri. Geniş açılım alanı sağlar.",
     price: "3.200₺'den başlayan fiyatlar",
-    image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-    features: ["Pürüzsüz kayma sistemi", "6mm temperli cam", "Alüminyum ray sistemi", "Kolay temizlenebilir yüzey"]
+    image: foto2,
+    features: [
+  "90°x90° ve 80°x80° boyutları",
+  "Temperli güvenlik camı",
+  "Paslanmaz çelik profil",
+  "Sürgülü veya menteşeli kapı sistemi"
+]
   },
   {
     id: "oval",
-    name: "Oval Kabin",
+    name: "ay-03 altın katlanabilir",
     description: "Estetik tasarım için oval ve kavisli modeller. Modern banyo dekorasyonu için mükemmel.",
     price: "4.000₺'den başlayan fiyatlar",
-    image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
-    features: ["Ergonomik kavisli tasarım", "Özel kalıplanmış cam", "Premium aksesuarlar", "Su sızdırmaz conta sistemi"]
+    image: foto3,
+    features: [
+  "Kare, dikdörtgen veya özel boyutlandırma",
+  "Şeffaf temperli güvenlik camı",
+  "Altın rengi kaplamalı paslanmaz çelik profil",
+  "Menteşeli veya katlanabilir kapı sistemi"
+]
   },
   {
     id: "glass",
-    name: "Premium Cam Kabin",
+    name: "ay-03 katlanabilir",
     description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
     price: "3.800₺'den başlayan fiyatlar",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400",
+    image: foto4,
+    features: [
+  "Banyonun ölçülerine özel boyutlandırma",
+  "Temperli güvenlik camı",
+  "Paslanmaz çelik, mat siyah veya altın profiller",
+  "Katlanabilir kapı mekanizması"
+]
+  },
+  {
+    id: "glass",
+    name: "ay05 duşakabin",
+    description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
+    price: "3.800₺'den başlayan fiyatlar",
+    image: foto5,
+    features: ["8mm temperli güvenlik camı", "Anti-kireç korumalı yüzey", "Krom kaplama aksesuarlar", "Nano teknoloji su itici"]
+  },
+  {
+    id: "glass",
+    name: "ay-06 altın duşakabin",
+    description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
+    price: "3.800₺'den başlayan fiyatlar",
+    image: foto6,
+    features: ["8mm temperli güvenlik camı", "Anti-kireç korumalı yüzey", "Krom kaplama aksesuarlar", "Nano teknoloji su itici"]
+  },
+  {
+    id: "glass",
+    name: "ay-06 duvardan duvara duşakabin",
+    description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
+    price: "3.800₺'den başlayan fiyatlar",
+    image: foto7,
+    features: ["8mm temperli güvenlik camı", "Anti-kireç korumalı yüzey", "Krom kaplama aksesuarlar", "Nano teknoloji su itici"]
+  },
+  {
+    id: "glass",
+    name: "ay-07 duvaradan duvara duşakabin",
+    description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
+    price: "3.800₺'den başlayan fiyatlar",
+    image: foto8,
+    features: ["8mm temperli güvenlik camı", "Anti-kireç korumalı yüzey", "Krom kaplama aksesuarlar", "Nano teknoloji su itici"]
+  },
+  {
+    id: "glass",
+    name: "ay-09 duşakabin",
+    description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
+    price: "3.800₺'den başlayan fiyatlar",
+    image: foto10,
+    features: ["8mm temperli güvenlik camı", "Anti-kireç korumalı yüzey", "Krom kaplama aksesuarlar", "Nano teknoloji su itici"]
+  },
+  {
+    id: "glass",
+    name: "ay-68 duvardan duvara duşakabin",
+    description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
+    price: "3.800₺'den başlayan fiyatlar",
+    image: foto11,
+    features: ["8mm temperli güvenlik camı", "Anti-kireç korumalı yüzey", "Krom kaplama aksesuarlar", "Nano teknoloji su itici"]
+  },
+  {
+    id: "glass",
+    name: "ay-70 karısık çizgili duşakabin",
+    description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
+    price: "3.800₺'den başlayan fiyatlar",
+    image: foto12,
+    features: ["8mm temperli güvenlik camı", "Anti-kireç korumalı yüzey", "Krom kaplama aksesuarlar", "Nano teknoloji su itici"]
+  },
+  {
+    id: "glass",
+    name: "ay-71 içe açılır koyu duşakabin",
+    description: "Temperli cam ile maksimum şeffaflık ve güvenlik. Lüks banyo konseptleri için ideal.",
+    price: "3.800₺'den başlayan fiyatlar",
+    image: foto13,
     features: ["8mm temperli güvenlik camı", "Anti-kireç korumalı yüzey", "Krom kaplama aksesuarlar", "Nano teknoloji su itici"]
   }
+ 
 ];
 
 export default function Products() {
@@ -54,7 +152,7 @@ export default function Products() {
           </h1>
           <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto mb-8">
             Ankara'nın en kaliteli duşakabin çeşitleri. Her banyoya uygun farklı model ve boyutlarda, 
-            5 yıl garanti ile profesyonel montaj hizmeti.
+           profesyonel montaj hizmeti.
           </p>
         </div>
       </section>
@@ -64,42 +162,55 @@ export default function Products() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {products.map((product) => (
-              <div key={product.id} className="bg-card rounded-xl shadow-lg border border-border overflow-hidden hover-lift">
-                <img 
-                  src={product.image} 
-                  alt={`${product.name} - Ankara duşakabin`} 
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-8">
+              <div
+                key={product.id}
+                className="bg-card rounded-xl shadow-lg border border-border hover-lift flex flex-col overflow-hidden"
+              >
+                {/* Image */}
+                <div className="flex-1 flex items-center justify-center bg-gray-100 max-h-[300px] sm:max-h-none">
+                  <img
+                    src={product.image}
+                    alt={`${product.name} - Ankara duşakabin`}
+                    className="max-w-full max-h-full object-contain"
+                  />
+                </div>
+
+                {/* Content */}
+                <div className="p-6 flex flex-col">
                   <h2 className="text-2xl font-semibold text-card-foreground mb-3">{product.name}</h2>
-                  <p className="text-muted-foreground mb-6">{product.description}</p>
-                  
-                  <div className="space-y-2 mb-6">
+                  <p className="text-muted-foreground mb-4 text-sm sm:text-base">{product.description}</p>
+
+                  <div className="space-y-1 mb-4 flex-1">
                     <h3 className="font-semibold text-card-foreground">Özellikler:</h3>
                     <ul className="space-y-1">
                       {product.features.map((feature, index) => (
                         <li key={index} className="flex items-center text-sm text-muted-foreground">
-                          <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
+                          <div className="w-2 h-2 bg-primary rounded-full mr-2"></div>
                           {feature}
                         </li>
                       ))}
                     </ul>
                   </div>
-                  
-                  <div className="flex items-center justify-between">
-                    <span className="text-primary font-bold text-lg">{product.price}</span>
-                    <Link href="/contact" className="inline-flex items-center text-primary font-medium hover:underline" data-testid={`link-product-${product.id}`}>
-                      Fiyat Teklifi Al
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </div>
+
+                  <Link
+                    href="/contact"
+                    className="inline-flex items-center text-primary font-medium hover:underline mt-2"
+                    data-testid={`link-product-${product.id}`}
+                  >
+                    Fiyat Teklifi Al
+                    <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
                 </div>
               </div>
             ))}
           </div>
-          
+
           <div className="text-center mt-16">
-            <Link href="/contact" className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-colors" data-testid="button-quote-products">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-colors"
+              data-testid="button-quote-products"
+            >
               <Calculator className="mr-2 h-5 w-5" />
               Ücretsiz Fiyat Teklifi Al
             </Link>
@@ -118,7 +229,7 @@ export default function Products() {
               Ankara'da duşakabin konusunda tercih edilme nedenlerimiz
             </p>
           </div>
-          
+
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
@@ -129,7 +240,7 @@ export default function Products() {
               <h3 className="text-xl font-semibold text-foreground mb-2">5 Yıl Garanti</h3>
               <p className="text-muted-foreground">Tüm ürünlerimizde 5 yıl kapsamlı garanti süresi</p>
             </div>
-            
+
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-primary-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -139,7 +250,7 @@ export default function Products() {
               <h3 className="text-xl font-semibold text-foreground mb-2">Profesyonel Montaj</h3>
               <p className="text-muted-foreground">Uzman ekibimizle hızlı ve kaliteli montaj hizmeti</p>
             </div>
-            
+
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-primary-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -149,7 +260,7 @@ export default function Products() {
               <h3 className="text-xl font-semibold text-foreground mb-2">Premium Kalite</h3>
               <p className="text-muted-foreground">CE belgeli temperli cam ve paslanmaz çelik aksesuarlar</p>
             </div>
-            
+
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-primary-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
